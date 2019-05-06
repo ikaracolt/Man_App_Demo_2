@@ -1,9 +1,9 @@
 {
-  "name": "Man App",
-  "short_name": "Man App",
+  "name": "Manager App",
+  "short_name": "Manager App",
   "lang": "en-CA",
-  "theme_color": "#26c1eb",
-  "background-color": "#26c1eb",
+  "theme_color": "#192a40",
+  "background-color": "#192a40",
   "start_url": "https://ikaracolt.github.io/Man_App_Demo_2/",
   "display": "standalone",
   "scope": "/manapp/",
