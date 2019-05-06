@@ -77,7 +77,122 @@
     padding-left:5px;
   }
 
+ .list_item {
+   height: 60px;
+   display: flex;
+   background-color: rgba(255, 255, 255, 0.1);
+   margin-bottom: 1px;
+ }
+
+ .list_item a {
+   display: flex;
+   width: 100%;
+   height: 60px;
+ }
+
+ .list_item_left {
+   width:50%;
+   display: flex;
+   flex-direction: column;
+   margin-left: 15px;
+   justify-content: center;
+
+ }
+
+ .list_item_right {
+  display: flex;
+  
+  font-size: 16px;
+  color: #fff;
+  opacity: 0.5;
+  width: 50%;
+  }
+
+  .list_labels {
+    width: 100%;
+    height: 20px;
+    display: flex;
+    margin-top: 20px;
+    
+  }
+
+  .list_labels_left {
+    width: 50%;
+    font-size: 12px;
+    color: #fff;
+    opacity: 0.5;
+    margin-left: 15px;
+
+  }
+
+  .list_labels_right {
+    display: flex;
+    width: 50%;
+    padding-right: 20px;
+  }
+
+  .dph_label {
+    font-size: 12px;
+    color: #fff;
+    opacity: 0.5;
+    width: 50%;
+  }
+
+  .gross_sales_label {
+    font-size: 12px;
+    color: #fff;
+    opacity: 0.5;
+    width: 50%;
+  }
+
+  .dph {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    color: #fff;
+    opacity: 0.5;
+    width: 50%;
+    justify-content: center;
+    height: 100%;
+    
+  }
  
+  .gross_sales {
+   display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    color: #fff;
+    opacity: 0.5;
+    width: 50%;
+    justify-content: center;
+    height: 100%;
+    
+   
+  }
+
+  .item_link_arrow {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 10px;
+  }
+
+
+
+ .venue_list_name {
+   font-size: 16px;
+   color: #fff;
+   font-family: roboto;
+   font-weight: 400;
+   line-height: 20px;
+ }
+
+ .artist_list_name {
+   font-size: 10px;
+   color: #fff;
+   opacity: 0.5;
+   line-height: 14px;
+ }
 
   
 
@@ -578,12 +693,33 @@
     align-items: center;
   }
   .artist {
+    margin-left: 10px;
+    font-family: Roboto, sans-serif;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+    opacity: 0.5;
+  }
+
+  .venue {
     margin-left: 15px;
     font-family: Roboto, sans-serif;
     color: #fff;
     font-size: 16px;
     font-weight: 400;
   }
+
+  .venue_artist {
+    display: flex:
+    flex-direction: column;
+    margin-left: 15px;
+    width: 60%;
+    
+  }
+
+  
+
+
   .rank {
     display: -webkit-box;
     display: -webkit-flex;
@@ -664,7 +800,7 @@
     margin-left: 20px;
   }
   .show_list_label {
-    padding-left: 15px;
+    
     font-family: Roboto, sans-serif;
     color: #fff;
     font-size: 12px;
@@ -681,6 +817,7 @@
   .show_list_labels_right {
     width: 16%;
     height: 20px;
+
   }
   .artist_venue {
     display: -webkit-box;
@@ -2996,11 +3133,12 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    width: 70%;
+    width: 50%;
   }
   .show_list_labels_right {
-    width: 40%;
+    width: 50%;
     height: 20px;
+    display: flex;
   }
   .artist_venue {
     display: -webkit-box;
