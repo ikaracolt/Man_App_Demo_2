@@ -4,7 +4,7 @@
   "lang": "en-CA",
   "theme_color": "#26c1eb",
   "background-color": "#26c1eb",
-  "start_url": "https://ikaracolt.github.io/Man_App_demo_2/",
+  "start_url": "https://ikaracolt.github.io/Man_App_Demo_2/",
   "display": "standalone",
   "scope": "/manapp/",
   "icons": [
